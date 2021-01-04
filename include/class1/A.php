@@ -1,5 +1,7 @@
 <?php
 
+namespace gandalfbialy;
+
 class A
 {
     public $name;

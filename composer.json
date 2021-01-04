@@ -1,5 +1,5 @@
 {
-    "name": "gandalf/test-composer",
+    "name": "gandalfbialy/test-composer",
     "description": "Just testing if my composer is all rigth",
     "type": "project",
     "license": "MIT",
@@ -16,7 +16,7 @@
     },
     "autoload" : {
         "psr-4": {
-            "webcrew\\" : [ "include/class1/", "include/class2/"]
+            "gandalfbialy\\" : [ "include/class1/", "include/class2/"]
         },
         "files": ["include/e.php"]
     }
