@@ -1,0 +1,23 @@
+{
+    "name": "gandalf/test-composer",
+    "description": "Just testing if my composer is all rigth",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Jozefowicz",
+            "email": "igorjozefowicz@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php-64bit" : "^7.4",
+        "ext-mbstring" : "*"
+    },
+    "autoload" : {
+        "psr-4": {
+            "webcrew\\" : [ "include/class1/", "include/class2/"]
+        },
+        "files": ["include/e.php"]
+    }
+}
